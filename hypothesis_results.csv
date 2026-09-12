@@ -1,0 +1,5 @@
+Hypothesis,Statistic,Value,Supported
+H1: Age-group rejection variation,Rate range,2.73% (31-45) to 6.92% (0-5),True
+H2: Mobile capture vs rejection (state),Pearson r,0.2695 (p=0.1068),False
+H3: Gender rejection gap,Rate gap,Female 5.79% vs Male 4.85%,Weakly
+H4: Age vs rejection (row-level),Pearson r,-0.0641 (p=0.00e+00),"Statistically yes, practically no"
