@@ -12,7 +12,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![Data Source](https://img.shields.io/badge/Data-UIDAI%20(Govt.%20of%20India)-orange)
 
-**[📓 Notebook](notebooks/03_uidai_eda_visualization.ipynb) · [📊 Live Dashboard](dashboard/eda_dashboard.html) · [📄 Full Report](docs/Week3_EDA_Visualization.docx)**
+**[📓 Notebook](03_uidai_eda_visualization.ipynb) · [📊 Live Dashboard](index.html) · [📄 Full Report](Week3_EDA_Visualization.docx)**
 
 </div>
 
@@ -85,19 +85,15 @@ so the visual never needs a caption to be trusted at face value.
 .
 ├── README.md
 ├── requirements.txt
-├── notebooks/
-│   └── 03_uidai_eda_visualization.ipynb   ← full pipeline, executed with outputs (34 cells, 0 errors)
-├── data/
-│   ├── age_group_summary.csv               ← rejection rate by age band
-│   ├── state_summary_eda.csv                ← mobile capture vs. rejection rate, all 37 states/UTs
-│   ├── gender_summary.csv                    ← rejection rate by gender
-│   ├── correlation_matrix.csv                ← 5×5 Pearson correlation table
-│   └── hypothesis_results.csv                ← all 4 hypotheses with exact test statistics
+├── 03_uidai_eda_visualization.ipynb   ← full pipeline, executed with outputs (34 cells, 0 errors)
+├── age_group_summary.csv               ← rejection rate by age band
+├── state_summary_eda.csv                ← mobile capture vs. rejection rate, all 37 states/UTs
+├── gender_summary.csv                    ← rejection rate by gender
+├── correlation_matrix.csv                ← 5×5 Pearson correlation table
+│── hypothesis_results.csv                ← all 4 hypotheses with exact test statistics
 ├── assets/charts/                            ← the 6 static chart exports shown above
-├── dashboard/
-│   └── eda_dashboard.html                    ← self-contained interactive dashboard
-└── docs/
-    └── Week3_EDA_Visualization.docx          ← the full written report
+├── index.html                        ← self-contained interactive dashboard
+└── Week3_EDA_Visualization.docx          ← the full written report
 ```
 
 ## 🧭 The Analytical Approach
@@ -119,7 +115,7 @@ Visualize (6 charts) → Interpret Honestly → Interactive Dashboard
 
 ## 🖥️ Interactive Dashboard
 
-[`dashboard/eda_dashboard.html`](dashboard/eda_dashboard.html) — fully self-contained (Plotly
+[`index.html`](index.html) — fully self-contained (Plotly
 embedded inline, works with zero internet connection). Just open it in any browser.
 
 **What's inside:** 6 KPI cards, an age-distribution histogram, rejection-rate-by-age-group bar
