@@ -45,7 +45,7 @@ isn't analysis, it's confirmation bias with extra steps.
 | H3 | Rejection rate differs meaningfully by gender | Group-wise comparison | ⚠️ **Weakly supported** |
 | H4 | Age linearly predicts rejection at the record level | Pearson r, row-level (n=440,817) | ❌ **Not meaningfully supported** |
 
-*Full statistics for each test — exact r-values, p-values, and sample sizes — are in [`data/hypothesis_results.csv`](data/hypothesis_results.csv) and Section 4 of the report.*
+*Full statistics for each test — exact r-values, p-values, and sample sizes — are in [`data/hypothesis_results.csv`](hypothesis_results.csv) and Section 4 of the report.*
 
 ## 📈 The Six Visualizations
 
